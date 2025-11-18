@@ -1,0 +1,8 @@
+def Digitos_Seguidos():
+    numero=input("Mete un número: ")
+    numeroant1=numero-1
+    numeroant2=numero-2
+    numeroant3=numero-3
+    print("sus dijitos anteriores son: "+(numeroant1+numeroant2+numeroant3))
+
+Digitos_Seguidos()
